@@ -39,7 +39,7 @@ const data = [
       name: 'Emily Cunningham',
       age: 64,
       image: 'https://randomuser.me/api/portraits/women/50.jpg',
-      email: 'emily.cunningham@example.com',
+      email: 'emily.cunning@example.com',
     },
     {
       id: '059737189',
@@ -116,7 +116,7 @@ const data = [
       name: 'Zhozefina Ohrimovich',
       age: 54,
       image: 'https://randomuser.me/api/portraits/women/58.jpg',
-      email: 'zhozefina.ohrimovich@example.com',
+      email: 'zhozefina.ohrim@example.com',
     },
     {
       id: '3793794T',

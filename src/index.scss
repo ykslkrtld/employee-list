@@ -1,13 +1,48 @@
 @import "./scss/reset";
 
 body{
-    background-color: aqua;
+    background: linear-gradient(to right, #265C4B, #8FC1B5 )
 }
 
 .container{
-    width: 20rem;
-    margin: auto;
+    background-color: white;
+    width: 22rem;
+    margin: 2rem auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    gap: 0.6rem;
+    border-radius: 2rem;
+
+    .card{
+        display: flex;
+        width: 100%;
+        padding-left: 1.2rem;
+    }
+
+    .card-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 1rem;
+    }
+
+    .card img{
+        width: 6rem;
+        border-radius: 50%;
+    }
+
+    button{
+        background-color: #93D94E;
+        width: 6rem;
+        padding: 0.6rem;
+        margin: 0 1.5rem 1rem;
+        border: none;
+        border-radius: 1rem;
+        &:hover{
+            cursor: pointer;
+            background-color: red;
+        }
+    } 
 }
