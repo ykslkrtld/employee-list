@@ -136,7 +136,7 @@ const data = [
       id: 'SC 18 90 45 Z',
       name: 'Curtis Gibson',
       age: 28,
-      image: 'https://randomuser.me/api/portraits/men/55.jpg',
+      image: 'https://randomuser.me/api/portraits/men/9.jpg',
       email: 'curtis.gibson@example.com',
     },
   ];
